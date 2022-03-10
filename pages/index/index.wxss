@@ -1,0 +1,50 @@
+/**index.wxss**/
+.box{
+  display: flex;
+  justify-content:space-around;
+}
+.box view{
+  width: 100px;
+  line-height: 100px;
+}
+.box view:nth-child(1) {
+  background-color: aqua;
+}
+.box view:nth-child(2) {
+  background-color: rebeccapurple;
+}
+.box view:nth-child(3){
+  background-color:red;
+}
+.scoll-box{
+  width: 100px;
+  height: 200px;
+}
+.scoll-box view{
+  width: 100px;
+  line-height: 100px;
+}
+.scoll-box view:nth-child(1) {
+  background-color: aqua;
+}
+.scoll-box view:nth-child(2) {
+  background-color: rebeccapurple;
+}
+.scoll-box view:nth-child(3){
+  background-color:red;
+}
+.swiper-box{
+  height: 200px;
+}
+.swiper-box swiper-item view{
+  height: 200px;
+}
+.swiper-box swiper-item:nth-child(1) view{
+  background-color: rebeccapurple;
+}
+.swiper-box swiper-item:nth-child(2) view{
+  background-color:greenyellow;
+}
+.swiper-box swiper-item:nth-child(3) view{
+  background-color:skyblue;
+}

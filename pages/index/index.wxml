@@ -1,0 +1,41 @@
+<!--index.wxml-->
+<!-- <view class="box">
+  <view>A</view>
+  <view>B</view>
+  <view>C</view>
+</view> -->
+
+<!-- <scroll-view class="scoll-box" scroll-y>
+  <view>A</view>
+  <view>B</view>
+  <view>C</view>
+</scroll-view> -->
+<swiper class="swiper-box" indicator-dots autoplay circular interval="2000" indicator-color="#fff">
+<swiper-item>
+  <view>1</view>
+</swiper-item>
+<swiper-item>
+  <view>2</view>
+</swiper-item>
+<swiper-item>
+  <view>3</view>
+</swiper-item>
+</swiper>
+<!-- <text user-select>复制</text><text>为什么</text>
+<rich-text nodes="<div>1111</div><div>2222</div>"></rich-text>
+<button>按钮1</button>
+<button type="default">按钮2</button>
+<button type="primary">按钮3</button>
+<button size="mini" type="warn">按钮4</button>
+<image src="https://img1.baidu.com/it/u=882155231,1851525227&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=659"></image>
+<image mode="widthFix" src="https://img1.baidu.com/it/u=882155231,1851525227&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=659"></image>
+<image mode="heightFix" src="https://img1.baidu.com/it/u=882155231,1851525227&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=659"></image> -->
+
+<view>{{msg}}</view>
+<view style="background-color:{{color}}">2222</view>
+<view>{{1+2}}</view>
+<view >{{condition ? '真的':'假的'}}</view>
+<view>{{count}}</view>
+<button bindtap="handclick" data-num="{{5}}" type="primary">{{count}}</button>
+<input value="{{text}}" bindinput="handinput"/>
+{{text}}
